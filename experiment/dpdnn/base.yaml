@@ -1,0 +1,11 @@
+datasets:
+  train:
+    - DIV2K/
+  test:
+    - SRbenchmark/Set14
+#    - SRbenchmark/BSD100
+#    - SRbenchmark/Urban100
+model:
+  name: DPDNN
+dataloader:
+  batch_size: 12

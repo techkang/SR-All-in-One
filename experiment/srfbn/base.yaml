@@ -1,0 +1,11 @@
+datasets:
+  train:
+    - DIV2K/
+  test:
+    - SRbenchmark/Set5
+    - SRbenchmark/Set14
+model:
+  name: SRFBN
+dataloader:
+  batch_size: 14
+#  only DIV2K: r32.39/0.897(PSNR/SSIM) and 28.77/0.786,

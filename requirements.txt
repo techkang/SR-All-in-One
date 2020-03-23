@@ -1,0 +1,11 @@
+scikit-image
+torchvision
+tqdm
+msgpack
+termcolor
+yacs
+ipdb
+opencv-python
+numpy
+torch
+tensorboardX

@@ -1,0 +1,18 @@
+trainer: MetaTrainer
+datasets:
+  train:
+    - DIV2K/
+  test:
+    - SRbenchmark/Set5
+#    - SRbenchmark/Set14
+model:
+  name: MetaSR
+dataloader:
+  batch_size: 40
+meta:
+  backbone: RDN
+solver:
+  save_interval: 10000
+  max_iter: 300000
+lr_scheduler:
+  step_size: 50000

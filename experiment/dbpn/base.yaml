@@ -1,0 +1,10 @@
+datasets:
+  train:
+    - DIV2K/
+  test:
+    - SRbenchmark/Set5
+    - SRbenchmark/Set14
+model:
+  name: DBPN
+dataloader:
+  batch_size: 56
